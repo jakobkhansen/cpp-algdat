@@ -29,3 +29,7 @@ include(GoogleTest)
 gtest_discover_tests(arraylist_test)
 
 
+add_executable(
+  arraylist_usage
+  arraylist_usage.cpp
+)

@@ -51,6 +51,7 @@ C++ implementations of different algorithms and datastructures.
 
 ## Datastructures
 * Containers
+  - [x] ArrayList / Vector
   - [ ] Stack
   - [ ] Priority queue
   - [ ] Binary Heap

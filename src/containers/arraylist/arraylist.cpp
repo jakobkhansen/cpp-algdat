@@ -16,6 +16,10 @@ class ArrayList {
       array = new T[size];
     }
 
+    ~ArrayList() {
+      delete[] array;
+    }
+
     void append(T elem) {
       if (numElems == size) {
         tableDouble();
@@ -44,6 +48,8 @@ class ArrayList {
       for (int i = 0; i < numElems; i++) {
         newArray[i] = array[i];
       }
+
+      delete[] array;
 
       array = newArray;
       size = newSize;

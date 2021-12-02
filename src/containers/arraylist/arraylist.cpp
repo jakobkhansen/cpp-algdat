@@ -28,7 +28,7 @@ class ArrayList {
       numElems++;
     }
 
-    T* operator[](int index) {
+    T operator[](int index) {
       return array[index];
     }
 
